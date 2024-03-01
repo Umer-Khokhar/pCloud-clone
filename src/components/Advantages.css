@@ -1,0 +1,21 @@
+.advangates {
+    margin: 2rem auto 0 auto;
+    max-width: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.advangates .access, .share, .security {
+    width: 33.3%;
+}
+
+.advangates h2 {
+    font-size: 2rem;
+}
+
+.advangates p {
+    width: 85%;
+    font-size: 18px;
+}

@@ -1,0 +1,48 @@
+.platforms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.200);
+    /* padding: 1rem 0; */
+    /* position: relative; */
+}
+.platforms h3 {
+    font-size: 1rem;
+}
+.platforms img {
+    width: 25px;
+    margin-bottom: .4rem;
+}
+
+.platforms a {
+  text-decoration: none;
+  color: rgb(25, 25, 39);
+}
+
+.plat {
+    position: relative;
+    padding-bottom: 1rem;
+    display: inline-block;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+  }
+  
+  .plat::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -20%;
+    right: -20%;
+    height: 2px;
+    background-color: aqua;
+    transform: scaleX(0);
+    /* transform-origin: left; */
+    transition: transform 0.3s ease; /* Add transition */
+  }
+  
+  .plat.clicked::before {
+    transform: scaleX(1);
+  }

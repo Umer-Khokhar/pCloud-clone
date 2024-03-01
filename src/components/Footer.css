@@ -1,0 +1,49 @@
+.parent {
+    border-top: 1px solid rgba(128, 128, 128, 0.200);
+    padding: 2rem 1rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    /* margin-top: 1rem; */
+    background-color: #fff;
+    width: 100vw;
+
+}
+
+.my-footer .wrapp {
+    display: grid;
+    max-width: 1440px;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.200);
+}
+
+.wrapp ul {
+    list-style: none;
+}
+
+.wrapp ul li {
+    margin: .5rem 0;
+}
+
+.wrapp ul li img {
+    width: 30px;
+}
+
+.wrapp ul:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+ul .two {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    margin: 1.5rem auto 0 auto;
+}

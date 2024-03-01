@@ -1,0 +1,23 @@
+.macs-section {
+    max-width: 1440px;
+    margin: 2rem auto 0 auto;
+}
+
+.mac-hero {
+    text-align: center;
+}
+
+.mac-hero h1 {
+    font-size: 3.5rem;
+}
+
+.mac-hero .hero-p {
+    font-size: 1.7rem;
+    width: 85%;
+    margin: 0 auto;
+} 
+
+.images-mac > .main-img >  img {
+    width: 100%;
+    margin-top: 3rem;
+}

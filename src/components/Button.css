@@ -1,0 +1,33 @@
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.buttons-container p {
+    font-size: .95rem;
+    margin-top: 2rem;
+    color: gray;
+}
+
+.buttons button {
+   width: 18rem;
+   height: 2.8rem;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+   margin: 0 1rem;
+   font-size: 1rem;
+   background-color: #00acdbe7;
+   color: white;
+   font-weight: 600;
+}
+
+.buttons .version {
+    background-color: white;
+    color: #00acdbe7;
+    border: 1px solid #00acdbe7;
+}
